@@ -10,8 +10,12 @@ namespace exercício01
     {
         static void Main(string[] args)
         {
+            var data = new DateTime();
+            Console.WriteLine("oi");
 
 
+            Console.WriteLine("Press any key to exit.");
+            Console.ReadKey();  
         }
     }
 }

@@ -6,12 +6,15 @@ using System.Threading.Tasks;
 
 namespace exercício01
 {
-    internal class Exercício01
+    internal class Exercício02
     {
         static void Main(string[] args)
         {
-            var data = DateTime.Now;
-            Console.WriteLine($"A data e horario de hoje é {data}");
+            var dataPassada = new DateTime(2025, 02, 02);
+            var dataFutura = new DateTime(2025, 02, 18);
+
+            var dataDifereanca = dataFutura - dataPassada;
+            Console.WriteLine($"A diferança entre as datas é {dataDifereanca.Days}");
 
 
             Console.WriteLine("Press any key to exit.");

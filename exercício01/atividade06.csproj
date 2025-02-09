@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>exercício01.Exercício01</StartupObject>
+    <StartupObject>exercício01.Exercício04</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="exercício04.cs" />
+    <Compile Include="exercício03.cs" />
+    <Compile Include="exercício02.cs" />
     <Compile Include="exercício01.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

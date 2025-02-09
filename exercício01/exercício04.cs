@@ -1,24 +1,29 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace exercício01
+namespace atividade06
 {
     internal class Exercício04
     {
         static void Main(string[] args)
         {
-      
+
             Console.WriteLine("Digite uma data no formato dd/MM/yyyy:");
             DateTime dataFeriado;
             if (DateTime.TryParseExact(Console.ReadLine(), "dd/MM/yyyy", null, System.Globalization.DateTimeStyles.None, out dataFeriado))
             {
-             
+
                 int dia = dataFeriado.Day;
                 int mes = dataFeriado.Month;
 
-              
+
                 switch (mes)
                 {
-                    case 1: 
+                    case 1:
                         switch (dia)
                         {
                             case 1:
@@ -42,7 +47,7 @@ namespace exercício01
                         }
                         break;
 
-                    case 5: 
+                    case 5:
                         switch (dia)
                         {
                             case 1:
@@ -54,7 +59,7 @@ namespace exercício01
                         }
                         break;
 
-                    case 9: 
+                    case 9:
                         switch (dia)
                         {
                             case 7:
@@ -78,7 +83,7 @@ namespace exercício01
                         }
                         break;
 
-                    case 11: 
+                    case 11:
                         switch (dia)
                         {
                             case 2:
@@ -93,7 +98,7 @@ namespace exercício01
                         }
                         break;
 
-                    case 12: 
+                    case 12:
                         switch (dia)
                         {
                             case 25:

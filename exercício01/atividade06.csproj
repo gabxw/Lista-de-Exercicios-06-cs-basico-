@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>exercício01.Exercício04</StartupObject>
+    <StartupObject>atividade06.Exercício10</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="exercício10.cs" />
+    <Compile Include="exercício09.cs" />
+    <Compile Include="exercício08.cs" />
+    <Compile Include="exercício07.cs" />
+    <Compile Include="exercício06.cs" />
+    <Compile Include="exercício05.cs" />
     <Compile Include="exercício04.cs" />
     <Compile Include="exercício03.cs" />
     <Compile Include="exercício02.cs" />
